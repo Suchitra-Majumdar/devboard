@@ -1,0 +1,64 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevBoard</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #4c1d95, #7c3aed, #c084fc);
+        color: white;
+    }
+
+    .card {
+        text-align: center;
+        padding: 40px;
+        border-radius: 20px;
+        background: rgba(255,255,255,0.12);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    p {
+        opacity: 0.9;
+        margin-bottom: 20px;
+    }
+
+    button {
+        border: none;
+        padding: 12px 24px;
+        border-radius: 10px;
+        background: white;
+        color: #6d28d9;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <h1>DevBoard</h1>
+        <p>A simple task tracker built for developers.</p>
+        <button>Get Started</button>
+    </div>
+</body>
+</html>
+```
+
